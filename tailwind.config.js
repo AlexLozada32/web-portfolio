@@ -7,26 +7,12 @@ export default {
         midnightSlate: "#2B304D",
         twilightIndigo: "#39436F",
         coralSunset: "#FF7F50",
+        regalBlue: "#4C5DA9",
+        twilightBlue: "#3D4A88",
       },
 
       gridTemplateColumns: {
         "auto-1fr": "auto 1fr",
-      },
-
-      animation: {
-        hoverUp: "hoverUp 0.5s ease forwards",
-        hoverDown: "hoverDown 0.5s ease",
-      },
-
-      keyframes: {
-        hoverUp: {
-          "0%": { transform: "translateY(0)" },
-          "100%": { transform: "translateY(-4px)" },
-        },
-        hoverDown: {
-          "0%": { transform: "translateY(-4px)" },
-          "100%": { transform: "translateY(0)" },
-        },
       },
     },
   },

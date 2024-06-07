@@ -12,7 +12,6 @@ const App = () => {
         <ProfileCard />
         <About />
       </div>
-      
     </main>
   );
 };

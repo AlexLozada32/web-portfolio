@@ -7,13 +7,13 @@ const Header = () => {
         <img
           src={media.logo}
           alt="profile"
-          className="mr-4 h-20 w-20 rounded-full hidden sm:block"
+          className="mr-4 hidden h-20 w-20 rounded-full sm:block"
         />
         <div className="relative">
           <h1 className="text-lg font-bold tracking-wider sm:text-xl md:text-3xl">
             ALEJANDRO LOZADA REYES
           </h1>
-          <h2 className="absolute -bottom-5 right-0 -skew-x-12 text-lg font-bold text-coralSunset sm:text-xl md:-bottom-6 md:text-2xl">
+          <h2 className="absolute -bottom-5 right-0 text-lg font-bold italic text-coralSunset sm:text-xl md:-bottom-6 md:text-2xl">
             Frontend Developer
           </h2>
         </div>
