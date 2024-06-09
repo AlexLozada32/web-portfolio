@@ -15,9 +15,7 @@ const FrequentlyAsked = () => {
         questions, feel free to reach out—I'm always happy to connect and
         discuss more!
       </p>
-      <div className="rounded-lg bg-regalBlue p-4">
-        <Accordion />
-      </div>
+      <Accordion />
     </section>
   );
 };

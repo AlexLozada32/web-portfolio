@@ -2,18 +2,18 @@ const faqData = [
   {
     question: "What inspired you to become a developer?",
     answer:
-      "My journey into development started with a curiosity for how websites work...",
+      "Esse sit ipsum tempor non elit occaecat do aute non Lorem deserunt consectetur pariatur. Enim ullamco reprehenderit esse labore cupidatat non nostrud. Cupidatat sunt quis ut do culpa. Aliquip elit proident quis elit proident. Eu ut cupidatat irure duis quis laboris elit nisi quis fugiat ipsum dolor mollit nulla commodo. Labore excepteur fugiat non dolore commodo elit voluptate cillum quis do reprehenderit. Dolor enim tempor officia aliquip cillum non do laboris consequat cillum aliqua ad mollit tempor.",
   },
   {
     question:
       "How do you stay updated with the latest trends and technologies in web development?",
     answer:
-      "I believe in continuous learning and adaptability. Technology is always evolving...",
+      "Esse sit ipsum tempor non elit occaecat do aute non Lorem deserunt consectetur pariatur. Enim ullamco reprehenderit esse labore cupidatat non nostrud. Cupidatat sunt quis ut do culpa. Aliquip elit proident quis elit proident. Eu ut cupidatat irure duis quis laboris elit nisi quis fugiat ipsum dolor mollit nulla commodo. Labore excepteur fugiat non dolore commodo elit voluptate cillum quis do reprehenderit. Dolor enim tempor officia aliquip cillum non do laboris consequat cillum aliqua ad mollit tempor.",
   },
   {
     question: "Can you describe your workflow when starting a new project?",
     answer:
-      "I aim to become a full-stack developer and contribute to meaningful projects...",
+      "Esse sit ipsum tempor non elit occaecat do aute non Lorem deserunt consectetur pariatur. Enim ullamco reprehenderit esse labore cupidatat non nostrud. Cupidatat sunt quis ut do culpa. Aliquip elit proident quis elit proident. Eu ut cupidatat irure duis quis laboris elit nisi quis fugiat ipsum dolor mollit nulla commodo. Labore excepteur fugiat non dolore commodo elit voluptate cillum quis do reprehenderit. Dolor enim tempor officia aliquip cillum non do laboris consequat cillum aliqua ad mollit tempor.",
   },
 ];
 
