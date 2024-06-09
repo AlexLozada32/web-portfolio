@@ -1,30 +1,32 @@
 import { useState } from "react";
-import faqData from "../../../constants/faqData";
 
-const Accordion = () => {
+type AccordionProps = {
+  title: string;
+  answer: string;
+};
+
+const Accordion = ({ title, answer }: AccordionProps) => {
   const [accordionIsOpen, setAccordionIsOpen] = useState(false);
 
   const toggleAccordion = () => {
     setAccordionIsOpen(!accordionIsOpen);
-  };``
+  };
+  ``;
 
   return (
-    <div className="rounded-lg bg-regalBlue p-4">
-      {faqData.map((faq, index) => (
-        <section key={index} className={`${index !== faqData.length - 1 ? "mb-4" : ""}`}>
+    <>
+      <button
+        onClick={toggleAccordion}
+        className="flex w-full items-center justify-between"
+      >
+        <h2 className="font-bold">{title}</h2>
+        <span className="text-xl">{accordionIsOpen ? "-" : "+"}</span>
+      </button>
 
-          <button onClick={toggleAccordion} className="flex w-full justify-between">
-            <h2 className="font-bold">{faq.question}</h2>
-            <span>{accordionIsOpen ? "-" : "+"}</span>
-          </button>
-
-          <div className={`${accordionIsOpen ? "block" : "hidden"}`}>
-            <p>{faq.answer}</p>
-          </div>
-
-        </section>
-      ))}
-    </div>
+      <div className={`${accordionIsOpen ? "block" : "hidden"}`}>
+        <p>{answer}</p>
+      </div>
+    </>
   );
 };
 
