@@ -7,6 +7,8 @@ import PersonalSkills from "../src/components/PersonalSkills";
 import ProfessionalSkills from "../src/components/ProfessionalSkills";
 import PersonalSkillsList from "../src/components/subcomponents/PersonalSkillsList";
 import ProfessionalSkillsList from "../src/components/subcomponents/ProfessionalSkillsList";
+import FrequentlyAsked from "../src/components/FrequentlyAsked";
+import Accordion from "../src/components/subcomponents/Accordion";
 
 export {
   About,
@@ -17,4 +19,6 @@ export {
   ProfessionalSkills,
   PersonalSkillsList,
   ProfessionalSkillsList,
+  FrequentlyAsked,
+  Accordion,
 };

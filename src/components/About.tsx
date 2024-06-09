@@ -63,7 +63,7 @@ const About = () => {
         <a
           href={media.cv}
           download
-          className="flex w-full items-center justify-center rounded-xl bg-regalBlue px-4 py-2 text-white duration-500 hover:bg-twilightBlue transition sm:w-40"
+          className="flex w-full items-center justify-center rounded-xl bg-regalBlue px-4 py-2 text-white transition duration-500 hover:bg-twilightBlue sm:w-40"
           aria-label="Download Resume"
         >
           <img src={media.download} alt="download" className="mr-2 h-4 w-4" />{" "}
