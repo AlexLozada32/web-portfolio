@@ -1,18 +1,12 @@
-const PersonalSkillsList = () => {
-  const skillsData = [
-    { skill: "Communication", percent: 100 },
-    { skill: "Teamwork", percent: 90 },
-    { skill: "Adaptability", percent: 80 },
-    { skill: "Attention to Detail", percent: 100 },
-    { skill: "Time Management", percent: 100 },
-    { skill: "Creativity", percent: 60 },
-    { skill: "Self-Motivation", percent: 80 },
-    { skill: "Critical Thinking", percent: 90 },
-  ];
+import { personalSkills } from "../../../constants/skills";
 
-  const skills = skillsData.map((item, index) => (
-    <li key={index} className={index !== skillsData.length - 1 ? "mb-4" : ""}>
-      <h2 className="mb-1 text-lg font-semibold">{item.skill}</h2>
+const PersonalSkillsList = () => {
+  const skills = personalSkills.map((item, index) => (
+    <li
+      key={index}
+      className={index !== personalSkills.length - 1 ? "mb-4" : ""}
+    >
+      <h2 className="mb-2 text-lg font-semibold">{item.skill}</h2>
       <div className="h-6 w-full rounded-full bg-gray-400">
         <div
           className="flex h-full items-center justify-center rounded-full bg-gradient-to-r from-whisperingAzure to-regalBlue italic"

@@ -6,7 +6,8 @@ import ProfileCard from "../src/components/ProfileCard";
 import PersonalSkills from "../src/components/PersonalSkills";
 import ProfessionalSkills from "../src/components/ProfessionalSkills";
 import PersonalSkillsList from "../src/components/subcomponents/PersonalSkillsList";
-import ProfessionalSkillsList from "../src/components/subcomponents/ProfessionalSkillsList";
+import ProfessionalSkillsList from "../src/components/subcomponents/ProfessionalSkillsList.tsx";
+import Projects from "../src/components/Projects.tsx";
 import FrequentlyAsked from "../src/components/FrequentlyAsked";
 import Accordion from "../src/components/subcomponents/Accordion";
 
@@ -19,6 +20,7 @@ export {
   ProfessionalSkills,
   PersonalSkillsList,
   ProfessionalSkillsList,
+  Projects,
   FrequentlyAsked,
   Accordion,
 };

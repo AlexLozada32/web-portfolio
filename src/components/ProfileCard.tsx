@@ -1,8 +1,8 @@
-import { media } from "../../constants/media";
+import { media } from "../../public/media";
 
 const ProfileCard = () => {
   return (
-    <section className="mx-4 my-4 flex items-center justify-center rounded-xl bg-twilightIndigo p-4 md:mx-0 md:ml-8 sm:h-fit lg:mx-0 lg:ml-12">
+    <section className="mx-4 flex items-center justify-center rounded-xl bg-twilightIndigo p-4 sm:h-fit md:mx-0 md:ml-8 lg:mx-0 lg:ml-12">
       <img
         src={media.profilePicture}
         alt="profile-picture"

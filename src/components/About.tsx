@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { media } from "../../constants/media";
+import { media } from "../../public/media";
 
 const About = () => {
   const [age, setAge] = useState(0);
@@ -17,7 +17,10 @@ const About = () => {
   }, []);
 
   return (
-    <section className="mx-4 my-4 rounded-xl bg-twilightIndigo p-4 md:mx-0 md:mr-8 lg:mx-0 lg:mr-12">
+    <section
+      id="about"
+      className="mx-4 mb-4 rounded-xl bg-twilightIndigo p-4 sm:p-8 md:mx-0 md:mr-8 lg:mx-0 lg:mr-12"
+    >
       <h1 className="mb-4 text-lg font-bold tracking-wider sm:text-xl md:text-2xl">
         ABOUT <span className="text-coralSunset">ME</span>
       </h1>
@@ -63,7 +66,7 @@ const About = () => {
         <a
           href={media.cv}
           download
-          className="flex w-full items-center justify-center rounded-xl bg-regalBlue px-4 py-2 text-white transition duration-500 hover:bg-twilightBlue sm:w-40"
+          className="flex w-full items-center justify-center rounded-xl bg-regalBlue px-3 py-2 text-white transition duration-500 hover:bg-twilightBlue sm:w-40"
           aria-label="Download Resume"
         >
           <img src={media.download} alt="download" className="mr-2 h-4 w-4" />{" "}

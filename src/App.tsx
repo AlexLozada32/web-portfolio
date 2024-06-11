@@ -5,6 +5,7 @@ import {
   About,
   PersonalSkills,
   ProfessionalSkills,
+  Projects,
   FrequentlyAsked,
 } from "../constants/compExport";
 
@@ -17,10 +18,11 @@ const App = () => {
         <ProfileCard />
         <About />
       </div>
-      <div className="md:grid md:grid-cols-2 md:gap-4 ">
+      <div className="md:grid md:grid-cols-2 md:gap-4">
         <PersonalSkills />
         <ProfessionalSkills />
       </div>
+      <Projects />
       <FrequentlyAsked />
     </main>
   );

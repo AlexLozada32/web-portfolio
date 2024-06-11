@@ -1,8 +1,8 @@
-import { media } from "../../constants/media";
+import { media } from "../../public/media";
 
 const Header = () => {
   return (
-    <header className="mx-4 rounded-xl bg-twilightIndigo py-8 md:mx-8 lg:mx-12">
+    <header className="card-template py-8 md:mx-8 lg:mx-12">
       <div className="flex items-center justify-center">
         <img
           src={media.logo}

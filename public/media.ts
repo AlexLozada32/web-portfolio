@@ -6,6 +6,8 @@ import logo from "../public/images/myLogo.png";
 import download from "../public/svg/download.svg";
 import pin from "../public/svg/pin.svg";
 import language from "../public/svg/language.svg";
+import leftArrow from "./svg/left-arrow.svg";
+import rightArrow from "./svg/right-arrow.svg";
 
 // TECH STACK
 import html from "../public/svg/html.svg";
@@ -38,6 +40,8 @@ export const media = {
   download: download,
   pin: pin,
   language: language,
+  leftArrow: leftArrow,
+  rightArrow: rightArrow,
 
   // TECH STACK
   html: html,
