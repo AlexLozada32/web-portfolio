@@ -5,8 +5,9 @@ import {
   About,
   PersonalSkills,
   ProfessionalSkills,
-  Projects,
+  // Projects,
   FrequentlyAsked,
+  Contact,
 } from "../constants/compExport";
 
 const App = () => {
@@ -22,8 +23,9 @@ const App = () => {
         <PersonalSkills />
         <ProfessionalSkills />
       </div>
-      <Projects />
+      {/* <Projects /> */}
       <FrequentlyAsked />
+      <Contact />
     </main>
   );
 };

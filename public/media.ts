@@ -8,6 +8,9 @@ import pin from "../public/svg/pin.svg";
 import language from "../public/svg/language.svg";
 import leftArrow from "./svg/left-arrow.svg";
 import rightArrow from "./svg/right-arrow.svg";
+import phone from "./svg/phone.svg";
+import mail from "./svg/mail.svg";
+import linkedin from "./svg/linkedin.svg";
 
 // TECH STACK
 import html from "../public/svg/html.svg";
@@ -42,6 +45,9 @@ export const media = {
   language: language,
   leftArrow: leftArrow,
   rightArrow: rightArrow,
+  phone: phone,
+  mail: mail,
+  linkedin: linkedin,
 
   // TECH STACK
   html: html,

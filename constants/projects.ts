@@ -1,6 +1,6 @@
 const projects = [
   {
-    name: "My Portfolio",
+    title: "My Portfolio",
     description: "This is a project description.",
     img: "https://via.placeholder.com/150",
     alt: "Project 1",
@@ -8,7 +8,7 @@ const projects = [
     githubLink: "#",
   },
   {
-    name: "My Weather App",
+    title: "My Weather App",
     description: "This is a project description.",
     img: "https://via.placeholder.com/150",
     alt: "Project 2",
@@ -16,7 +16,7 @@ const projects = [
     githubLink: "#",
   },
   {
-    name: "Project 3",
+    title: "Project 3",
     description: "This is a project description.",
     img: "https://via.placeholder.com/150",
     alt: "Project 3",
@@ -24,21 +24,29 @@ const projects = [
     githubLink: "#",
   },
   {
-    name: "Project 4",
+    title: "Project 4",
     description: "This is a project description.",
     img: "https://via.placeholder.com/150",
     alt: "Project 4",
     liveLink: "#",
     githubLink: "#",
   },
-  {
-    name: "Project 5",
-    description: "This is a project description.",
-    img: "https://via.placeholder.com/150",
-    alt: "Project 5",
-    liveLink: "#",
-    githubLink: "#",
-  }
+  // {
+  //   title: "Project 5",
+  //   description: "This is a project description.",
+  //   img: "https://via.placeholder.com/150",
+  //   alt: "Project 5",
+  //   liveLink: "#",
+  //   githubLink: "#",
+  // },
+  // {
+  //   title: "Project 6",
+  //   description: "This is a project description.",
+  //   img: "https://via.placeholder.com/150",
+  //   alt: "Project 6",
+  //   liveLink: "#",
+  //   githubLink: "#",
+  // }
 ];
 
 export default projects;

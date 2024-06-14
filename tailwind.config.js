@@ -4,13 +4,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        midnightSlate: "#2B304D",
         twilightIndigo: "#39436F",
         coralSunset: "#FF7F50",
         regalBlue: "#4C5DA9",
         twilightBlue: "#3D4A88",
         whisperingAzure: "#87a3d3",
         sapphireSky: "#576eb9",
+        etherealMist: "#E4EAF5",
+        slateGray: "#708090",
       },
 
       gridTemplateColumns: {

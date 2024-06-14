@@ -10,6 +10,7 @@ import ProfessionalSkillsList from "../src/components/subcomponents/Professional
 import Projects from "../src/components/Projects.tsx";
 import FrequentlyAsked from "../src/components/FrequentlyAsked";
 import Accordion from "../src/components/subcomponents/Accordion";
+import Contact from "../src/components/Contact.tsx";
 
 export {
   About,
@@ -23,4 +24,5 @@ export {
   Projects,
   FrequentlyAsked,
   Accordion,
+  Contact,
 };
