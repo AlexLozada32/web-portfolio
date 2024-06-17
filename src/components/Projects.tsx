@@ -13,7 +13,7 @@ const Projects = () => {
   };
 
   return (
-    <section className="card-template relative">
+    <section id="projects" className="card-template relative">
       <h1 className="mb-4 text-lg font-bold tracking-wider sm:text-xl md:text-2xl">
         PROJECTS
       </h1>
@@ -54,44 +54,3 @@ const Projects = () => {
 };
 
 export default Projects;
-
-// const Carousel = () => {
-//   return (
-//     <div className="relative mx-auto w-full max-w-lg">
-//       <div className="relative h-64 overflow-hidden">
-//         {images.map((image, index) => (
-//           <div
-//             key={index}
-//             className={`absolute inset-0 transition-transform duration-500 ${
-//               index === currentIndex ? "translate-x-0" : "translate-x-full"
-//             }`}
-//             style={{
-//               transform: `translateX(${(index - currentIndex) * 100}%)`,
-//             }}
-//           >
-//             <img
-//               src={image}
-//               alt={`Slide ${index + 1}`}
-//               className="h-full w-full object-cover"
-//             />
-//           </div>
-//         ))}
-//       </div>
-
-//       <button
-//         onClick={prevSlide}
-//         className="absolute left-0 top-1/2 -translate-y-1/2 transform bg-gray-800 bg-opacity-50 p-2 text-white"
-//       >
-//         &lt;
-//       </button>
-//       <button
-//         onClick={nextSlide}
-//         className="absolute right-0 top-1/2 -translate-y-1/2 transform bg-gray-800 bg-opacity-50 p-2 text-white"
-//       >
-//         &gt;
-//       </button>
-//     </div>
-//   );
-// };
-
-// export default Carousel;

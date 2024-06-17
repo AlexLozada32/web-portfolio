@@ -11,6 +11,10 @@ import rightArrow from "./svg/right-arrow.svg";
 import phone from "./svg/phone.svg";
 import mail from "./svg/mail.svg";
 import linkedin from "./svg/linkedin.svg";
+import githubWhite from "./svg/github-white.svg";
+import facebook from "./svg/facebook.svg";
+import instagram from "./svg/instagram.svg";
+import discord from "./svg/discord.svg";
 
 // TECH STACK
 import html from "../public/svg/html.svg";
@@ -48,6 +52,10 @@ export const media = {
   phone: phone,
   mail: mail,
   linkedin: linkedin,
+  githubWhite: githubWhite,
+  facebook: facebook,
+  instagram: instagram,
+  discord: discord,
 
   // TECH STACK
   html: html,

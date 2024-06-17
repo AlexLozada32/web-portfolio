@@ -8,6 +8,7 @@ import {
   // Projects,
   FrequentlyAsked,
   Contact,
+  ScrollUpButton,
 } from "../constants/compExport";
 
 const App = () => {
@@ -26,6 +27,7 @@ const App = () => {
       {/* <Projects /> */}
       <FrequentlyAsked />
       <Contact />
+      <ScrollUpButton />
     </main>
   );
 };

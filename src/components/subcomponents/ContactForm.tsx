@@ -2,6 +2,7 @@ import { useRef, FormEvent } from "react";
 import emailjs from "@emailjs/browser";
 
 export default function ContactForm() {
+  const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
   const form = useRef<HTMLFormElement>(null);
 
   const sendEmail = (e: FormEvent<HTMLFormElement>) => {
@@ -10,9 +11,7 @@ export default function ContactForm() {
     if (!form.current) return;
 
     emailjs
-      .sendForm("service_s98tpa9", "template_y7s35le", form.current, {
-        publicKey: "2LDyPNb94qsWVJg8v",
-      })
+      .sendForm("service_s98tpa9", "template_y7s35le", form.current, publicKey)
       .then(
         () => {
           console.log("SUCCESS!");
@@ -31,27 +30,27 @@ export default function ContactForm() {
     <form
       ref={form}
       onSubmit={sendEmail}
-      className="mb-4 flex flex-col rounded-xl bg-sapphireSky p-4"
+      className="flex flex-col rounded-xl bg-sapphireSky p-4 md:w-2/5"
     >
       <input
         type="text"
         name="from_name"
-        className="bg-etherealMist text-slateGray mb-4 rounded-lg p-2 tracking-wider"
-        placeholder="Name"
+        className="mb-4 rounded-lg bg-etherealMist p-2 tracking-wider text-slateGray"
+        placeholder="Your Name"
         autoComplete="off"
         required
       />
       <input
         type="email"
         name="user_email"
-        className="bg-etherealMist text-slateGray mb-4 rounded-lg p-2 tracking-wider"
-        placeholder="Email"
+        className="mb-4 rounded-lg bg-etherealMist p-2 tracking-wider text-slateGray"
+        placeholder="Your Email"
         autoComplete="off"
         required
       />
       <textarea
         name="message"
-        className="bg-etherealMist text-slateGray mb-4 resize-none rounded-lg p-2 tracking-wider"
+        className="mb-4 resize-none rounded-lg bg-etherealMist p-2 tracking-wider text-slateGray"
         placeholder="Message"
         rows={5}
         required

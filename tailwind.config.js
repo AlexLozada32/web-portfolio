@@ -5,11 +5,12 @@ export default {
     extend: {
       colors: {
         twilightIndigo: "#39436F",
+        socialColor: "#E5E4E2",
         coralSunset: "#FF7F50",
         regalBlue: "#4C5DA9",
         twilightBlue: "#3D4A88",
-        whisperingAzure: "#87a3d3",
-        sapphireSky: "#576eb9",
+        whisperingAzure: "#87A3D3",
+        sapphireSky: "#576EB9",
         etherealMist: "#E4EAF5",
         slateGray: "#708090",
       },
