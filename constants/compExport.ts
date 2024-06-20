@@ -2,7 +2,7 @@
 import About from "../src/components/About";
 import Header from "../src/components/Header";
 import Navbar from "../src/components/Navbar";
-import ProfileCard from "../src/components/ProfileCard";
+import ProfilePicture from "../src/components/ProfilePicture.tsx";
 import PersonalSkills from "../src/components/PersonalSkills";
 import ProfessionalSkills from "../src/components/ProfessionalSkills";
 import Projects from "../src/components/Projects.tsx";
@@ -16,17 +16,19 @@ import ProfessionalSkillsList from "../src/components/subcomponents/Professional
 import Accordion from "../src/components/subcomponents/Accordion";
 import ContactInfo from "../src/components/subcomponents/ContactInfo.tsx";
 import ContactForm from "../src/components/subcomponents/ContactForm.tsx";
+import Carousel from "../src/components/subcomponents/Carousel.tsx"
 
 export {
   About,
   Header,
   Navbar,
-  ProfileCard,
+  ProfilePicture,
   PersonalSkills,
   ProfessionalSkills,
   PersonalSkillsList,
   ProfessionalSkillsList,
   Projects,
+  Carousel,
   FrequentlyAsked,
   Accordion,
   Contact,

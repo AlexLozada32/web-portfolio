@@ -4,7 +4,7 @@ const projects = [
     description: "This is a project description.",
     img: "https://via.placeholder.com/150",
     alt: "Project 1",
-    _: "#",
+    liveLink: "#",
     githubLink: "#",
   },
   {

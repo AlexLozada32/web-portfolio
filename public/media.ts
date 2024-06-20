@@ -15,6 +15,8 @@ import githubWhite from "./svg/github-white.svg";
 import facebook from "./svg/facebook.svg";
 import instagram from "./svg/instagram.svg";
 import discord from "./svg/discord.svg";
+import angleUp from "./svg/angleUp.svg";
+import angleDown from "./svg/angleDown.svg";
 
 // TECH STACK
 import html from "../public/svg/html.svg";
@@ -56,6 +58,8 @@ export const media = {
   facebook: facebook,
   instagram: instagram,
   discord: discord,
+  angleUp: angleUp,
+  angleDown: angleDown,
 
   // TECH STACK
   html: html,

@@ -1,11 +1,11 @@
 import {
   Navbar,
   Header,
-  ProfileCard,
+  ProfilePicture,
   About,
   PersonalSkills,
   ProfessionalSkills,
-  // Projects,
+  Projects,
   FrequentlyAsked,
   Contact,
   ScrollUpButton,
@@ -16,15 +16,15 @@ const App = () => {
     <main>
       <Navbar />
       <Header />
-      <div className="md:grid md:grid-cols-auto-1fr md:gap-4">
-        <ProfileCard />
+      <div className="lg:grid lg:grid-cols-auto-1fr lg:gap-4">
+        <ProfilePicture />
         <About />
       </div>
       <div className="md:grid md:grid-cols-2 md:gap-4">
         <PersonalSkills />
         <ProfessionalSkills />
       </div>
-      {/* <Projects /> */}
+      <Projects />
       <FrequentlyAsked />
       <Contact />
       <ScrollUpButton />

@@ -1,4 +1,4 @@
-import { professionalSkills } from "../../../constants/skills";
+import { professionalSkills } from "../../../constants/skillsData";
 
 const ProfessionalSkillsList = () => {
   return (

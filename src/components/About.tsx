@@ -19,7 +19,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="mx-4 mb-4 rounded-xl bg-twilightIndigo p-4 sm:p-8 md:mx-0 md:mr-8 lg:mx-0 lg:mr-12"
+      className="card-template lg:h-[370px] lg:overflow-scroll md:mr-8 lg:mx-0 lg:mr-12"
     >
       <h1 className="mb-4 text-lg font-bold tracking-wider sm:text-xl md:text-2xl">
         ABOUT <span className="text-coralSunset">ME</span>
