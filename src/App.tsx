@@ -9,7 +9,7 @@ import {
   FrequentlyAsked,
   Contact,
   ScrollUpButton,
-} from "../constants/compExport";
+} from "./constants/compExport";
 
 const App = () => {
   return (

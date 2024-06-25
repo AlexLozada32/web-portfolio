@@ -19,10 +19,10 @@ const About = () => {
   return (
     <section
       id="about"
-      className="card-template lg:h-[370px] lg:overflow-scroll md:mr-8 lg:mx-0 lg:mr-12"
+      className="card-template md:mr-8 lg:mx-0 lg:mr-12 lg:h-[370px] lg:overflow-scroll"
     >
       <h1 className="mb-4 text-lg font-bold tracking-wider sm:text-xl md:text-2xl">
-        ABOUT <span className="text-coralSunset">ME</span>
+        ABOUT <span className="text-orangeTone">ME</span>
       </h1>
 
       <p className="mb-3 text-justify indent-4">
@@ -54,10 +54,10 @@ const About = () => {
           <div className="flex items-center">
             <img src={media.language} alt="pin" className="mr-2 h-5 w-5" />
             <p>
-              <span className="mr-2 rounded-full bg-regalBlue px-2 py-1 italic">
+              <span className="bg-buttonColor mr-2 rounded-full px-2 py-1 italic">
                 Spanish
               </span>
-              <span className="rounded-full bg-regalBlue px-2 py-1 italic">
+              <span className="bg-buttonColor rounded-full px-2 py-1 italic">
                 English
               </span>
             </p>
@@ -66,7 +66,7 @@ const About = () => {
         <a
           href={media.cv}
           download
-          className="flex w-full items-center justify-center rounded-xl bg-regalBlue px-3 py-2 text-white transition duration-500 hover:bg-twilightBlue sm:w-40"
+          className="bg-buttonColor hover:bg-resumeHover flex w-full items-center justify-center rounded-xl px-3 py-2 text-white transition duration-500 sm:w-40"
           aria-label="Download Resume"
         >
           <img src={media.download} alt="download" className="mr-2 h-4 w-4" />{" "}

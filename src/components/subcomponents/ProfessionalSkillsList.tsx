@@ -1,4 +1,4 @@
-import { professionalSkills } from "../../../constants/skillsData";
+import { professionalSkills } from "../../constants/skillsData";
 
 const ProfessionalSkillsList = () => {
   return (
@@ -12,7 +12,7 @@ const ProfessionalSkillsList = () => {
             {skill.items.map((item, index) => (
               <li
                 key={index}
-                className="flex h-32 w-24 transform flex-col justify-center rounded-xl bg-sapphireSky text-center transition duration-300 ease-in-out hover:-translate-x-1 hover:-translate-y-1 hover:shadow-custom-glow"
+                className="flex h-32 w-24 transform flex-col justify-center rounded-xl bg-cardColor text-center transition duration-300 ease-in-out hover:-translate-x-1 hover:-translate-y-1 hover:shadow-custom-glow"
               >
                 <img
                   src={item.img}

@@ -23,6 +23,7 @@ import html from "../public/svg/html.svg";
 import css from "../public/svg/css.svg";
 import js from "../public/svg/javascript.svg";
 import ts from "../public/svg/typescript.svg";
+import python from "./svg/python.svg";
 import react from "../public/svg/react.svg";
 import tailwind from "../public/svg/tailwind.svg";
 import nextjs from "../public/svg/next.svg";
@@ -66,6 +67,7 @@ export const media = {
   css: css,
   js: js,
   ts: ts,
+  python: python,
   react: react,
   tailwind: tailwind,
   nextjs: nextjs,

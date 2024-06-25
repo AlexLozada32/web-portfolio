@@ -1,4 +1,4 @@
-import { ContactInfo, ContactForm } from "../../constants/compExport";
+import { ContactInfo, ContactForm } from "../constants/compExport";
 
 const Contact = () => {
   const year = new Date().getFullYear();

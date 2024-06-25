@@ -14,7 +14,7 @@ body {
 @layer components {
   /* CARD TEMPLATE */
   .card-template {
-    @apply mx-4 mb-4 h-fit rounded-xl bg-twilightIndigo p-4 sm:p-6 md:mx-8 lg:mx-12;
+    @apply bg-mainCard mx-4 mb-4 h-fit rounded-xl p-4 sm:p-6 md:mx-8 lg:mx-12;
   }
 
   /* SCROLL UP BUTTON */

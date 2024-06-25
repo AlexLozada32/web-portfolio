@@ -1,4 +1,4 @@
-import { media } from "../public/media";
+import { media } from "../../public/media";
 
 // PERSONAL SKILLS DATA
 export const personalSkills = [
@@ -21,6 +21,7 @@ export const professionalSkills = [
       { name: "CSS", img: media.css },
       { name: "JavaScript", img: media.js },
       { name: "TypeScript", img: media.ts },
+      { name: "Python", img: media.python },
     ],
   },
   {

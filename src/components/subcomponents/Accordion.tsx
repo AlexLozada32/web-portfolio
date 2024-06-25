@@ -3,11 +3,10 @@ import { media } from "../../../public/media";
 
 type AccordionProps = {
   question: string;
-  p1: string;
-  p2?: string;
+  answer: string;
 };
 
-const Accordion = ({ question, p1, p2 }: AccordionProps) => {
+const Accordion = ({ question, answer }: AccordionProps) => {
   const [accordionIsOpen, setAccordionIsOpen] = useState(false);
 
   return (
@@ -17,7 +16,7 @@ const Accordion = ({ question, p1, p2 }: AccordionProps) => {
         className={`flex w-full items-center justify-between ${accordionIsOpen ? "mb-2" : ""}`}
       >
         <h2
-          className={`mr-4 font-bold transition duration-500 ${accordionIsOpen ? "text-coralSunset" : ""}`}
+          className={`mr-4 font-bold transition duration-500 ${accordionIsOpen ? "text-orangeTone" : ""}`}
         >
           {question}
         </h2>
@@ -30,8 +29,7 @@ const Accordion = ({ question, p1, p2 }: AccordionProps) => {
       </button>
 
       <div className={`${accordionIsOpen ? "block" : "hidden"}`}>
-        <p className={`text-justify indent-4 ${p2 ? "mb-2" : ""}`}>{p1}</p>
-        {p2 && <p className="text-justify indent-4">{p2}</p>}
+        <p className="text-justify indent-4">{answer}</p>
       </div>
     </>
   );

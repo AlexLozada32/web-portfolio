@@ -1,5 +1,5 @@
 import Accordion from "./subcomponents/Accordion";
-import faqData from "../../constants/faqData";
+import faqData from "../constants/faqData";
 
 const FrequentlyAsked = () => {
   return (
@@ -11,9 +11,9 @@ const FrequentlyAsked = () => {
       {faqData.map((faq, index) => (
         <div
           key={index}
-          className={`rounded-lg bg-regalBlue p-4 ${index !== faqData.length - 1 ? "mb-4" : ""}`}
+          className={`rounded-lg bg-buttonColor p-4 ${index !== faqData.length - 1 ? "mb-4" : ""}`}
         >
-          <Accordion question={faq.question} p1={faq.p1} p2={faq.p2} />
+          <Accordion question={faq.question} answer={faq.answer} />
         </div>
       ))}
     </section>

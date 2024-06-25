@@ -4,15 +4,15 @@ export default {
   theme: {
     extend: {
       colors: {
-        twilightIndigo: "#39436F",
+        mainCard: "#39436F",
         socialColor: "#E5E4E2",
-        coralSunset: "#FF7F50",
-        regalBlue: "#4C5DA9",
-        twilightBlue: "#3D4A88",
-        whisperingAzure: "#87A3D3",
-        sapphireSky: "#576EB9",
-        etherealMist: "#E4EAF5",
-        slateGray: "#708090",
+        orangeTone: "#FF7F50",
+        buttonColor: "#4C5DA9",
+        resumeHover: "#3D4A88",
+        startingBarColor: "#87A3D3",
+        cardColor: "#576EB9",
+        formInputBg: "#E4EAF5",
+        formInputText: "#708090",
       },
 
       gridTemplateColumns: {

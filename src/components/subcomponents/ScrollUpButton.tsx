@@ -22,11 +22,12 @@ const ScrollUpButton = () => {
   }, []);
 
   return (
-    <button
-      className={`text-lxl fixed bottom-4 right-3 hidden h-6 w-6 rounded-full bg-sapphireSky hover:bg-twilightIndigo lg:block ${isVisible ? "slide-in" : "slide-out"}`}
+    <a
+      href="#navbar"
+      className={`text-lxl fixed bottom-4 right-3 hidden h-6 w-6 items-center rounded-full bg-cardColor hover:bg-mainCard lg:flex lg:justify-center ${isVisible ? "slide-in" : "slide-out"}`}
     >
-      <a href="#navbar">↑</a>
-    </button>
+      ↑
+    </a>
   );
 };
 

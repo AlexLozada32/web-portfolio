@@ -20,6 +20,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src", "constants", "public/media.ts"],
+  "include": ["src", "src/constants", "public/media.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
