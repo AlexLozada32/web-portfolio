@@ -30,12 +30,12 @@ export default function ContactForm() {
     <form
       ref={form}
       onSubmit={sendEmail}
-      className="bg-cardColor flex flex-col rounded-xl p-4 md:w-2/5"
+      className="flex flex-col rounded-xl bg-cardColor p-4 md:w-2/5"
     >
       <input
         type="text"
         name="from_name"
-        className="bg-formInputBg text-formInputText mb-4 rounded-lg p-2 tracking-wider"
+        className="mb-4 rounded-lg bg-formInputBg p-2 tracking-wider text-formInputText"
         placeholder="Your Name"
         autoComplete="off"
         required
@@ -43,19 +43,25 @@ export default function ContactForm() {
       <input
         type="email"
         name="user_email"
-        className="bg-formInputBg text-formInputText mb-4 rounded-lg p-2 tracking-wider"
+        className="mb-4 rounded-lg bg-formInputBg p-2 tracking-wider text-formInputText"
         placeholder="Your Email"
         autoComplete="off"
         required
       />
       <textarea
         name="message"
-        className="bg-formInputBg text-formInputText mb-4 resize-none rounded-lg p-2 tracking-wider"
+        className="mb-4 resize-none rounded-lg bg-formInputBg p-2 tracking-wider text-formInputText"
         placeholder="Message"
         rows={5}
         required
       />
-      <input type="submit" value="Submit" className="font-bold" />
+      <div className="flex justify-center">
+        <input
+          type="submit"
+          value="Submit"
+          className="cursor-pointer rounded-lg bg-buttonColor px-4 py-2 font-bold"
+        />
+      </div>
     </form>
   );
 }
