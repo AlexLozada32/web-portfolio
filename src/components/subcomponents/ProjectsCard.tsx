@@ -27,6 +27,7 @@ const ProjectsCard = ({ projects, currentProject }: ProjectsCardProps) => {
           <button className="cursor-pointer rounded-lg bg-buttonColor px-4 py-2">
             <a
               href={projects[currentProject].liveLink}
+              target="_blank"
               className="font-bold tracking-wider"
             >
               Live Link
@@ -36,6 +37,7 @@ const ProjectsCard = ({ projects, currentProject }: ProjectsCardProps) => {
             <img src={media.github} alt="github" className="mr-2 h-5 w-5" />
             <a
               href={projects[currentProject].githubLink}
+              target="_blank"
               className="font-bold tracking-wider"
             >
               Code
