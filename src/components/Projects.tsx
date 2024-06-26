@@ -9,6 +9,7 @@ const Projects = () => {
         PROJECTS
       </h1>
 
+      {/* MOBILE */}
       <div className="flex flex-col items-center lg:hidden">
         {projects.map((project, index) => (
           <div
@@ -52,6 +53,7 @@ const Projects = () => {
         ))}
       </div>
 
+      {/* DESKTOP */}
       <Carousel />
     </section>
   );
