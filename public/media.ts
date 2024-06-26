@@ -1,6 +1,9 @@
 // IMAGES IMPORTS
-import profilePicture from "../public/images/profile.jpg";
-import logo from "../public/images/myLogo.png";
+import profilePicture from "./images/profile.jpg";
+import logo from "./images/myLogo.png";
+import portfolio from "./images/portfolio.png";
+import comingSoon from "./images/coming-soon.jpeg";
+import weatherApp from "./images/myWeather.png";
 
 // SVG IMPORTS
 import download from "../public/svg/download.svg";
@@ -45,6 +48,9 @@ export const media = {
   // IMAGES
   profilePicture: profilePicture,
   logo: logo,
+  portfolio: portfolio,
+  comingSoon: comingSoon,
+  weatherApp: weatherApp,
 
   // SVG
   download: download,
