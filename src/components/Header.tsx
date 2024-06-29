@@ -10,10 +10,10 @@ const Header = () => {
           className="mr-4 hidden h-20 w-20 rounded-full sm:block"
         />
         <div className="relative">
-          <h1 className="text-lg font-bold tracking-wider sm:text-xl md:text-3xl">
+          <h1 className="xs:text-lg font-bold tracking-wider sm:text-xl md:text-3xl">
             ALEJANDRO LOZADA REYES
           </h1>
-          <h2 className="text-orangeTone absolute -bottom-5 right-0 text-lg font-bold italic sm:text-xl md:-bottom-6 md:text-2xl">
+          <h2 className="xs:text-lg absolute -bottom-5 right-0 font-bold italic text-orangeTone sm:text-xl md:-bottom-6 md:text-2xl">
             Frontend Developer
           </h2>
         </div>
