@@ -6,6 +6,7 @@ import comingSoon from "./images/coming-soon.jpeg";
 import weatherApp from "./images/myWeather.png";
 
 // SVG IMPORTS
+import hamburger from "./svg/hamburger.svg";
 import download from "../public/svg/download.svg";
 import pin from "../public/svg/pin.svg";
 import language from "../public/svg/language.svg";
@@ -53,6 +54,7 @@ export const media = {
   weatherApp: weatherApp,
 
   // SVG
+  hamburger: hamburger,
   download: download,
   pin: pin,
   language: language,

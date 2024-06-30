@@ -3,10 +3,14 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      borderWidth: {
+        1: "1px",
+      },
       screens: {
         xs: "400px",
       },
       colors: {
+        background: "#2b304d",
         mainCard: "#39436F",
         socialColor: "#E5E4E2",
         orangeTone: "#FF7F50",

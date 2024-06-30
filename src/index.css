@@ -14,7 +14,7 @@ body {
 @layer components {
   /* CARD TEMPLATE */
   .card-template {
-    @apply bg-mainCard mx-4 mb-4 h-fit rounded-xl p-4 sm:p-6 md:mx-8 lg:mx-12;
+    @apply mx-4 mb-4 h-fit rounded-xl bg-mainCard p-4 sm:p-6 md:mx-8 lg:mx-12;
   }
 
   /* SCROLL UP BUTTON */
@@ -46,5 +46,36 @@ body {
 
   .slide-out {
     animation: slideOut 0.5s forwards;
+  }
+
+  /* HAMBURGER MENU */
+  @keyframes hamburgerLeft {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes hamburgerRight {
+    from {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    to {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+  }
+
+  .hamburger-left {
+    animation: hamburgerLeft 0.5s forwards;
+  }
+
+  .hamburger-right {
+    animation: hamburgerRight 0.5s forwards;
   }
 }
