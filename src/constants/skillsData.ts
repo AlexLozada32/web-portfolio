@@ -42,7 +42,10 @@ export const professionalSkills = [
   },
   {
     category: "Backend Frameworks/Libraries",
-    items: [{ name: "Node.js", img: media.nodejs }],
+    items: [
+      { name: "Node.js", img: media.nodejs },
+      { name: "Express.js", img: media.express },
+    ],
   },
   {
     category: "Package Manager",
