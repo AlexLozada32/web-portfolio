@@ -41,29 +41,29 @@ const Navbar = () => {
       {/* MENU OPEN */}
       {isMenuOpen && (
         <ul
-          className={`card-template sm:hidden bg-mainCard p-4 ${isMenuOpen ? "hamburger-left" : "hamburger-right"}`}
+          className={`card-template bg-mainCard p-4 sm:hidden ${isMenuOpen ? "hamburger-left" : ""}`}
         >
           <a
             href="#about"
-            className="border-b-1 border-background mb-2 flex justify-center text-lg font-bold"
+            className="mb-2 flex justify-center border-b-1 border-background text-lg font-bold"
           >
             <li className="mb-2">About</li>
           </a>
           <a
             href="#skills"
-            className="border-background border-b-1 mb-2 flex justify-center text-lg font-bold"
+            className="mb-2 flex justify-center border-b-1 border-background text-lg font-bold"
           >
             <li className="mb-2">Skills</li>
           </a>
           <a
             href="#projects"
-            className="border-background border-b-1 mb-2 flex justify-center text-lg font-bold"
+            className="mb-2 flex justify-center border-b-1 border-background text-lg font-bold"
           >
             <li className="mb-2">Projects</li>
           </a>
           <a
             href="#faq"
-            className="border-background border-b-1 mb-2 flex justify-center text-lg font-bold"
+            className="mb-2 flex justify-center border-b-1 border-background text-lg font-bold"
           >
             <li className="mb-2">FAQ</li>
           </a>

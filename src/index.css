@@ -60,22 +60,7 @@ body {
     }
   }
 
-  @keyframes hamburgerRight {
-    from {
-      transform: translateX(0);
-      opacity: 1;
-    }
-    to {
-      transform: translateX(100%);
-      opacity: 0;
-    }
-  }
-
   .hamburger-left {
     animation: hamburgerLeft 0.5s forwards;
-  }
-
-  .hamburger-right {
-    animation: hamburgerRight 0.5s forwards;
   }
 }
