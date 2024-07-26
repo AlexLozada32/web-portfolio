@@ -36,6 +36,8 @@ import jest from "../public/svg/jest.svg";
 import mocha from "../public/svg/mocha.svg";
 import nodejs from "../public/svg/node.svg";
 import express from "./svg/express.svg";
+import mongo from "./svg/mongodb.svg";
+import postgre from "./svg/PostgreSQL.svg";
 import npm from "../public/svg/npm.svg";
 import git from "../public/svg/git.svg";
 import github from "../public/svg/github.svg";
@@ -85,6 +87,8 @@ export const media = {
   mocha: mocha,
   nodejs: nodejs,
   express: express,
+  mongo: mongo,
+  postgre: postgre,
   npm: npm,
   git: git,
   github: github,

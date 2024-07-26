@@ -45,6 +45,8 @@ export const professionalSkills = [
     items: [
       { name: "Node.js", img: media.nodejs },
       { name: "Express.js", img: media.express },
+      { name: "MongoDB", img: media.mongo },
+      { name: "PostgreSQL", img: media.postgre },
     ],
   },
   {
