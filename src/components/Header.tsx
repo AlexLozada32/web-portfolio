@@ -14,7 +14,7 @@ const Header = () => {
             ALEJANDRO LOZADA REYES
           </h1>
           <h2 className="xs:text-lg absolute -bottom-5 right-0 font-bold italic text-orangeTone sm:text-xl md:-bottom-6 md:text-2xl">
-            Frontend Developer
+            Fullstack Developer
           </h2>
         </div>
       </div>
